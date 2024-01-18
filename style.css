@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: lightseagreen;
+    margin: 100px auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: none;
+}
+.col img{
+    width: 100%;
+    padding-top: 100px;
+}
+.col{
+   
+    background: #241e20;
+    transform: scale(0.6);
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.row{
+   
+    background: #fff;
+    padding: 20px;
+}
+.row h1{
+    font-size: 30px;
+}
+.row p1{
+    font-size: 20px;
+    color: dimgray;
+}
+.discount{
+    color: green;
+    font-weight: 400;
+}
+.text{
+    margin-top: 30px;
+    font-weight: 500;
+    
+}
+.size{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+    font-weight: 400;
+}
+.size p{
+    width: 75px;
+}
+.size input:checked + span{
+    color: blue;
+    font-weight: 500;
+}
+.size input{
+    display: none;
+
+}
+.row1{
+    display: inherit;
+    gap: 2px;
+} 
+.color{
+    display: flex;
+    margin-top: 15px;
+    gap: 40px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.color p{
+    width: 75px;
+}
+.color:checked{
+    border-radius: 50%;
+    
+}
+.row2{
+    display: inherit;
+    gap: 15px;
+} 
+.color1{
+    
+    background: red;
+  
+}
+.color2{
+  
+    background: green;
+    
+}
+.color3{
+    
+    background: blue;
+    
+}
+.color4{
+   
+    background: yellow;
+    
+}
+.color span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    
+    cursor: pointer;
+}
+.color input{
+    display: none;
+}
+.color input:checked + span{
+    transform: scale(0.5);
+    box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+.quant{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;  
+}
+.quant input{
+    background: #eee;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+    border-radius: 12px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.quantity p{
+    width: 75px;
+}
+.row3{
+    display: inherit;
+    gap: 15px;
+   
+} 
+.btn1{
+    background: lightgreen;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 35px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.btn{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+    background: rgba(255, 2555, 255,0.5);
+}
+.content{
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+}
+.btn2{
+    background: darkorchid;
+}
+.btn.active{
+    background: darkviolet;
+}
